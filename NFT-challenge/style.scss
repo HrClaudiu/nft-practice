@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img, h1, span {
+    cursor: pointer;
+}
+
 body {
     background-color:$veryDarkBlueMainBg ;
     color: white;
@@ -22,6 +26,8 @@ body {
             width: 280px;
             height: 300px;
             border-radius: 10px;
+            cursor: pointer;
+
         }
         .details {
             p, h1 {
@@ -32,6 +38,8 @@ body {
                 font-size: 22px;
                 color: $white;
                 margin-top: 20px;
+                cursor: pointer;
+
             }
             p { 
                 font-weight: 600;
@@ -73,9 +81,24 @@ body {
                 color: $softBlue;
                 font-weight: 500;
                 span {
-                    color: white;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
                 }
             }
+        }
+    }
+}
+
+
+@media (min-width: 376px) and  (max-width: 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 320px;
         }
     }
 }
