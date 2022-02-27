@@ -1,0 +1,81 @@
+@import 'colors';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:$veryDarkBlueMainBg ;
+    color: white;
+    padding: 20px;
+    .container {
+        background-color: $veryDarkBlueCardBg;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        .image {
+            background-image: url('../images/image-equilibrium.jpg');
+            background-position: center;
+            background-size: cover;
+            width: 280px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .details {
+            p, h1 {
+                font-family: 'Outfit', sans-serif;
+            }
+            h1 {
+                font-weight: 600;
+                font-size: 22px;
+                color: $white;
+                margin-top: 20px;
+            }
+            p { 
+                font-weight: 600;
+                color: $softBlue;
+            }
+        }
+        .qty-timer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            div {
+                display: flex;
+                gap: 8px;
+                h3, p {
+                    margin: 0;
+                }
+                h3 {
+                    color: $cyan;
+                }
+            }
+        }
+        hr {
+            width: 100%;
+            opacity: 0.1;
+            margin: 20
+        }
+        .author {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            img {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                border: 1px solid $white;
+            }
+            p {
+                font-family: 'Outfit', sans-serif;
+                color: $softBlue;
+                font-weight: 500;
+                span {
+                    color: white;
+                }
+            }
+        }
+    }
+}

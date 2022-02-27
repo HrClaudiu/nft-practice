@@ -1,0 +1,117 @@
+/*(main BG)*/
+/*(card BG)*/
+/* (line)*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192b;
+  color: white;
+  padding: 20px;
+}
+
+body .container {
+  background-color: #14253d;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+body .container .image {
+  background-image: url("../images/image-equilibrium.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 280px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+body .container .details p, body .container .details h1 {
+  font-family: 'Outfit', sans-serif;
+}
+
+body .container .details h1 {
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+}
+
+body .container .details p {
+  font-weight: 600;
+  color: #8bacda;
+}
+
+body .container .qty-timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .qty-timer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+body .container .qty-timer div h3, body .container .qty-timer div p {
+  margin: 0;
+}
+
+body .container .qty-timer div h3 {
+  color: #00fff7;
+}
+
+body .container hr {
+  width: 100%;
+  opacity: 0.1;
+  margin: 20;
+}
+
+body .container .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+}
+
+body .container .author img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+body .container .author p {
+  font-family: 'Outfit', sans-serif;
+  color: #8bacda;
+  font-weight: 500;
+}
+
+body .container .author p span {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
